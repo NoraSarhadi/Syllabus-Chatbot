@@ -85,6 +85,7 @@ if __name__ == "__main__":
     pairs = [
         (r'Hi', ['Hello, Please ask your question regarding the syllabus']),
         (r'Hello', ['Hello, Please ask your question regarding the syllabus']),
+        (r'(.*)not(.*)class(.*)', [f'In the following dates you don\'t have class:\n{", ".join(f"{date}" for date in no_class_match)}']),
         (r'(.*)n\'t(.*)class(.*)', [f'In the following dates you don\'t have class:\n{", ".join(f"{date}" for date in no_class_match)}']),
         (r'(.*)no class(.*)', [f'In the following dates you don\'t have class:\n{", ".join(f"{date}" for date in no_class_match)}']),
         (r'(.*)attendance hour(.*)', [f'Professor\'s office hours: {extracted_attendance_hours}']),
