@@ -78,11 +78,10 @@ if __name__ == "__main__":
             assignment_key = f'Assignment {assignment_number}'
             assignment_due_dates_dict[assignment_key] = due_date
 
-    # Use extracted information or provide default values
     extracted_attendance_hours = attendance_hours_match.group(1) if attendance_hours_match else "Not available"
     extracted_office_location = office_location_match.group(1) if office_location_match else "Not available"
     
-    # Update chat responses with extracted information
+    # Create chat responses with extracted information
     pairs = [
         (r'Hi', ['Hello, Please ask your question regarding the syllabus']),
         (r'Hello', ['Hello, Please ask your question regarding the syllabus']),
@@ -93,7 +92,6 @@ if __name__ == "__main__":
         (r'(.*)office(.*)location(.*)', [f'Professor\'s office location: {extracted_office_location}']),
         (r'(.*)due(.*)', [f'Due dates for assignments:\n{", ".join(f"{assignment}: {due_date}" for assignment, due_date in assignment_due_dates_dict.items())}']),
         (r'(.*)assignment(.*)', [f'Due dates for assignments:\n{", ".join(f"{assignment}: {due_date}" for assignment, due_date in assignment_due_dates_dict.items())}']),
-        # Add more patterns and responses as needed
     ]
 
 
