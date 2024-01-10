@@ -1,22 +1,22 @@
 # Syllabus-Chatbot
 
-**Overview**
+**Overview:**
 
 This code serves the primary purpose of extracting specific information from the Construction Capstone Project class syllabus. Employing a pattern-matching methodology, the code is intricately designed to navigate the distinctive structure of the syllabus. Key features include identification of professor attendance hours, assignment due dates, absence of class dates, and office locations. To address queries that do not conform to the expected patterns, an error message is displayed, prompting users to ask questions relevant to the chatbot structure. 
 
-**Functionality**
+**Functionality:**
 
 The code utilizes the nltk library for natural language processing (NLP), employing a fundamental form of pattern matching. The nltk.chat.util.Chat class facilitates the creation of a rule-based chatbot by defining patterns and corresponding responses. It is imperative to note that this approach is tailored to a specific syllabus format, and any deviation may lead to limitations in data extraction.
 
-**Limitations**
+**Limitations:**
 
 Given time constraints, the code adopts a straightforward pattern-matching strategy, limiting its adaptability to a predefined syllabus structure. In the event of encountering a different syllabus format, the code may not successfully extract the requisite data. While advanced NLP techniques could enhance adaptability, their integration was precluded by time constraints.
 
-**Usage Instructions**
+**Usage Instructions:**
 
 To execute the project successfully, ensure that both the "syllabus_chatbot.py" file and the "BCN 4787C Syllabus with Schedule - Fall 2023 GC.pdf" file are located in the same folder. Initiate the program by running the Python file ("syllabus_chatbot.py").
 
-**Examples**
+**Examples:**
 
 <img width="495" alt="1" src="https://github.com/NoraSarhadi/Syllabus-Chatbot/assets/155926181/f8a07242-03e2-4a23-b95a-f3fa8f5e338d">
 
