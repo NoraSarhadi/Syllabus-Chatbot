@@ -26,3 +26,5 @@ Execute the py file to initiate the program.
 **Limitation**
 
 Due to time constraints, a straightforward pattern-matching approach was adopted and has limitations, as it is specifically tailored to a certain syllabus format. If a different syllabus structure is encountered, the code may not successfully extract the required data. Advanced natural language processing techniques could be used to make the code adaptable to various syllabus structures but I didn’t have enough time for that.
+<img width="495" alt="1" src="https://github.com/NoraSarhadi/Syllabus-Chatbot/assets/155926181/f8a07242-03e2-4a23-b95a-f3fa8f5e338d">
+<img width="492" alt="2" src="https://github.com/NoraSarhadi/Syllabus-Chatbot/assets/155926181/2cd230e5-0303-4e98-ad6a-dee35ec687b6">
