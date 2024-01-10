@@ -2,30 +2,21 @@
 
 **Overview**
 
-This documentation provides a comprehensive guide to the Python codebase designed to process natural language using the NLTK library. The primary objective of this code is to provide specific information about the Construction Capstone Project class from the syllabus text. This simple method involves pattern matching, and the code is tailored to a specific syllabus structure. The code identifies specific patterns within the syllabus text, such as: professor attendance hours, assignment due dates, no Class  date, and office Location. To address queries that do not conform to the expected patterns, an error message is displayed, prompting users to ask questions relevant to the chatbot structure. 
+This code serves the primary purpose of extracting specific information from the Construction Capstone Project class syllabus. Employing a pattern-matching methodology, the code is intricately designed to navigate the distinctive structure of the syllabus. Key features include identification of professor attendance hours, assignment due dates, absence of class dates, and office locations. To address queries that do not conform to the expected patterns, an error message is displayed, prompting users to ask questions relevant to the chatbot structure. 
 
-**Code Structure**
+**Functionality**
 
-The codebase is organized into the following main files:
-main.py: The main entry point for the program.
-syllabus_processor.py: Contains the core functionality for processing syllabus text.
-chatbot.py: Implements a simple chatbot for interacting with users.
+The code utilizes the nltk library for natural language processing (NLP), employing a fundamental form of pattern matching. The nltk.chat.util.Chat class facilitates the creation of a rule-based chatbot by defining patterns and corresponding responses. It is imperative to note that this approach is tailored to a specific syllabus format, and any deviation may lead to limitations in data extraction.
 
-**Dependencies**
+**Limitations**
 
-The code relies on the following external libraries:
-NLTK (Natural Language Toolkit): Used for natural language processing tasks.
+Given time constraints, the code adopts a straightforward pattern-matching strategy, limiting its adaptability to a predefined syllabus structure. In the event of encountering a different syllabus format, the code may not successfully extract the requisite data. While advanced NLP techniques could enhance adaptability, their integration was precluded by time constraints.
 
-Ensure that these libraries are installed before running the code.
+**Usage Instructions**
 
-**Execution**
+To execute the project successfully, ensure that both the "syllabus_chatbot.py" file and the "BCN 4787C Syllabus with Schedule - Fall 2023 GC.pdf" file are located in the same folder. Initiate the program by running the Python file ("syllabus_chatbot.py").
 
-To run the project successfully, both the “syllabus_chatbot.py” file and the “BCN 4787C Syllabus with Schedule - Fall 2023 GC.pdf” file must be in the same folder. 
-Execute the py file to initiate the program.
-
-**Limitation**
-
-Due to time constraints, a straightforward pattern-matching approach was adopted and has limitations, as it is specifically tailored to a certain syllabus format. If a different syllabus structure is encountered, the code may not successfully extract the required data. Advanced natural language processing techniques could be used to make the code adaptable to various syllabus structures but I didn’t have enough time for that.
+**Examples**
 
 <img width="495" alt="1" src="https://github.com/NoraSarhadi/Syllabus-Chatbot/assets/155926181/f8a07242-03e2-4a23-b95a-f3fa8f5e338d">
 
