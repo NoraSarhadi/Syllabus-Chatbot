@@ -14,7 +14,8 @@ fitz (PyMuPDF): PyMuPDF library for working with PDF documents.<br>
 
 **Usage Instructions:**<br>
 In order to Run the chatbot either manually install the aforementioned libraries or utilize the provided environment YAML file named "nora_env.yml." The latter option offers a streamlined approach, as it automates the installation process for all essential libraries, ensuring a cohesive and efficient setup.
-To execute the project successfully, ensure that both the "syllabus_chatbot.py" file and the "BCN 4787C Syllabus with Schedule - Fall 2023 GC.pdf" file are located in the same folder. Initiate the program by running the Python file ("syllabus_chatbot.py").
+To execute the project successfully, ensure that both the "syllabus_chatbot.py" file and the "BCN 4787C Syllabus with Schedule - Fall 2023 GC.pdf" file are located in the same folder. Initiate the program by running the Python file ("syllabus_chatbot.py").<br>
+P.S.: The environment could be copied in your terminal by: conda env create -f nora_env.yml 
 
 **Limitations:**<br>
 Given time constraints, the code adopts a straightforward pattern-matching strategy, limiting its adaptability to a predefined syllabus structure. In the event of encountering a different syllabus format, the code may not successfully extract the requisite data. While advanced NLP techniques could enhance adaptability, their integration was precluded by time constraints.
