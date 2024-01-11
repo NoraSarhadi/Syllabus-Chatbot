@@ -10,10 +10,10 @@ The code utilizes the nltk library for natural language processing (NLP), employ
 
 **External Libraries Used:**
 
-Tkinter: Python's standard GUI (Graphical User Interface) library.
-nltk: Natural Language Toolkit library, used for chatbot development.
-Flask: A lightweight web application framework for Python.
-fitz (PyMuPDF): PyMuPDF library for working with PDF documents.
+Tkinter: Python's standard GUI (Graphical User Interface) library.<br>
+nltk: Natural Language Toolkit library, used for chatbot development.<br>
+Flask: A lightweight web application framework for Python.<br>
+fitz (PyMuPDF): PyMuPDF library for working with PDF documents.<br>
 
 **Usage Instructions:**
 
