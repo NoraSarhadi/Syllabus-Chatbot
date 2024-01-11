@@ -8,13 +8,21 @@ This code serves the primary purpose of extracting specific information from the
 
 The code utilizes the nltk library for natural language processing (NLP), employing a fundamental form of pattern matching. The nltk.chat.util.Chat class facilitates the creation of a rule-based chatbot by defining patterns and corresponding responses. It is imperative to note that this approach is tailored to a specific syllabus format, and any deviation may lead to limitations in data extraction.
 
-**Limitations:**
+**External Libraries Used:**
 
-Given time constraints, the code adopts a straightforward pattern-matching strategy, limiting its adaptability to a predefined syllabus structure. In the event of encountering a different syllabus format, the code may not successfully extract the requisite data. While advanced NLP techniques could enhance adaptability, their integration was precluded by time constraints.
+Tkinter: Python's standard GUI (Graphical User Interface) library.
+nltk: Natural Language Toolkit library, used for chatbot development.
+Flask: A lightweight web application framework for Python.
+fitz (PyMuPDF): PyMuPDF library for working with PDF documents.
 
 **Usage Instructions:**
 
+In order to Run the chatbot either manually install the aforementioned libraries or utilize the provided environment YAML file named "nora_env.yml." The latter option offers a streamlined approach, as it automates the installation process for all essential libraries, ensuring a cohesive and efficient setup.
 To execute the project successfully, ensure that both the "syllabus_chatbot.py" file and the "BCN 4787C Syllabus with Schedule - Fall 2023 GC.pdf" file are located in the same folder. Initiate the program by running the Python file ("syllabus_chatbot.py").
+
+**Limitations:**
+
+Given time constraints, the code adopts a straightforward pattern-matching strategy, limiting its adaptability to a predefined syllabus structure. In the event of encountering a different syllabus format, the code may not successfully extract the requisite data. While advanced NLP techniques could enhance adaptability, their integration was precluded by time constraints.
 
 **Examples:**
 
